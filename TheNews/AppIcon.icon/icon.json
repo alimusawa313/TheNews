@@ -1,0 +1,44 @@
+{
+  "fill-specializations": [
+    { "value": { "solid": "extended-srgb:1.00000,0.31000,0.00000,1.00000" } },
+    { "appearance": "dark", "value": { "solid": "extended-srgb:0.06700,0.06700,0.06700,1.00000" } }
+  ],
+  "groups": [
+    {
+      "name": "Rule",
+      "layers": [
+        {
+          "name": "rule",
+          "image-name": "rule.svg",
+          "blend-mode": "normal",
+          "glass": true,
+          "opacity": 1,
+          "fill-specializations": [
+            { "value": { "solid": "extended-srgb:1.00000,0.90200,0.00000,1.00000" } }
+          ]
+        }
+      ],
+      "shadow": { "kind": "neutral", "opacity": 0.4 },
+      "translucency": { "enabled": true, "value": 0.2 }
+    },
+    {
+      "name": "Letter",
+      "layers": [
+        {
+          "name": "letter",
+          "image-name": "letter.svg",
+          "blend-mode": "normal",
+          "glass": true,
+          "opacity": 1,
+          "fill-specializations": [
+            { "value": { "solid": "extended-srgb:0.06700,0.06700,0.06700,1.00000" } },
+            { "appearance": "dark", "value": { "solid": "extended-srgb:1.00000,0.31000,0.00000,1.00000" } }
+          ]
+        }
+      ],
+      "shadow": { "kind": "neutral", "opacity": 0.5 },
+      "translucency": { "enabled": true, "value": 0.25 }
+    }
+  ],
+  "supported-platforms": { "squares": "shared" }
+}

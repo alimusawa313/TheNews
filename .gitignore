@@ -1,0 +1,45 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Xcode: per-user state
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Build products (simulator/device builds, DerivedData, test results)
+build/
+DerivedData/
+*.xcresult
+*.xcarchive
+
+# Swift Package Manager
+# Package.resolved (in project.xcworkspace/xcshareddata/swiftpm) is committed
+# on purpose so every machine resolves the same dependency versions.
+.build/
+.swiftpm/
+/Packages/
+.netrc
+
+# Secrets: the NewsAPI key lives in the Keychain or the NEWSAPI_KEY env var,
+# never in the repo.
+*.xcconfig.local
+Secrets.xcconfig
+Secrets.plist
+.env
+.env.*
+
+# Tooling
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+.claude/settings.local.json
